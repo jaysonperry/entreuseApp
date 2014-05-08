@@ -1,0 +1,65 @@
+              <h3 class="rubric"><a data-toggle="modal" data-target="#bookOneSheet">Book One-Sheet</h3>
+                <div class="row">
+                    <div class="article-image col-xsm-12 col-sm-5 col-md-5 col-lg-5 col-xlg-5">
+                      <a data-toggle="modal" data-target="#bookOneSheet"><%= image_tag "deanorion/dean-orion-epk-pdf1.png", :class => "img-center img-responsive img-rounded", :title => "Image One Sheet" %></a>
+                      <p><strong>Publisher</strong>: Sky Father Media; 1 edition (March 5, 2013)</p>
+                    </div>
+                    <div class="article-shout col-xsm-12 col-sm-7 col-md-7 col-lg-7 col-xlg-7">
+                      <p class="blurb">
+                        Formats:
+                        <ul>
+                          <li><strong>Kindle</strong> - File Size: 338 KB</li>
+                          <li><strong>Paperback</strong> - 204 pages</li>
+                        </ul>
+                        
+                      </p>
+                    <!-- Button trigger modal -->
+                      <p class="text-right"><a data-toggle="modal" data-target="#bookOneSheet">
+                        more&hellip;
+                      </a></p>
+                    </div>  
+                </div>
+<!-- Modal -->
+<div class="modal fade" id="bookOneSheet" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Book One-Sheet</h4>
+      </div>
+      <div class="modal-body">
+        <div>
+          <h4>Download</h4>
+          <ul class="downloads-list">
+            <li>
+              <!--<%= link_to 'PDF', '#'%>
+            </li>
+            <li>
+              <%= link_to 'Word', '#'%>
+            </li>
+            <li>
+              <%= link_to 'TXT', '#'%>
+            </li>
+            <li>
+              <%= link_to 'RTF', '#'%>
+            </li>-->
+            <li>
+              Image: <%= link_to 'JPG', '#'%>
+            </li>
+            <li>
+              <strong><%= link_to 'See complete Amazon listing', 'http://www.amazon.com/Another-Survival-Screenwriters-Creative-Storytellers-ebook/dp/B00BPK0QA8', :target => '_blank'%></strong>
+            </li>
+          </ul>
+        </div>
+        <article>
+            <%= image_tag "deanorion/dean-orion-epk-pdf1.png", :class => "img-center img-responsive", :title => "Live To Write Another Day One Sheet" %>
+            
+        </article>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
