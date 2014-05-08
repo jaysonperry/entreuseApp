@@ -2187,6 +2187,7 @@
 @import url(http://fonts.googleapis.com/css?family=Tenor+Sans);
 @import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600&subset=latin,latin-ext);
 @import url(http://fonts.googleapis.com/css?family=Federo);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,400italic,700italic);
 /* line 2, c:/Sites/entreuse/app/assets/stylesheets/entreuse_simple_form.css.scss */
 .simple_form div.input {
   margin-bottom: 10px;
@@ -9954,7 +9955,7 @@ body {
 
 /* line 270, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .navbar-brand-font {
-  font-family: helveticaneue-ultraligcond, Helvetica, sans-serif;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
   font-weight: 200;
   letter-spacing: .0625em;
   font-size: 34px;
@@ -9974,7 +9975,7 @@ a:hover {
 
 /* line 290, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .rubric {
-  font-family: helveticaneue-ultraligcond, Helvetica, sans-serif;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
   line-height: 1.125em;
   font-weight: bolder;
   color: #005684;
@@ -10286,47 +10287,59 @@ img.img-styling-basic {
   margin: 0 0px 0 0px;
   padding: 0 18px 0 0;
 }
+/* line 616, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+#demos .epk .panel .epk-content .rackmount .kit-content-list ul,
+#kit .epk .panel .epk-content .rackmount .kit-content-list ul {
+  border-bottom: 1px solid #c7c8ca;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+/* line 622, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+#demos .epk .panel .epk-content .rackmount .kit-content-list ul li a,
+#kit .epk .panel .epk-content .rackmount .kit-content-list ul li a {
+  padding: 0px 15px !important;
+}
 
-/* line 621, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 637, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .article-main a:link {
   color: blue;
 }
-/* line 625, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 641, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .article-main dl {
   margin-left: 2em;
   margin-right: 2em;
 }
-/* line 629, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 645, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .article-main dl dt {
   line-height: 1.125;
   padding-right: 2em;
 }
-/* line 633, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 649, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .article-main dl dd {
   margin: 1.625em;
   padding-bottom: 1.625em;
   padding-right: 2em;
   border-bottom: 1px solid #c7c8ca;
 }
-/* line 642, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 658, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .article-main ul {
   list-style: none;
 }
-/* line 650, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 666, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .article-main ol {
   list-style: decimal;
 }
-/* line 658, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 674, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .article-main .citation-reviewer {
   font-size: 1.125em;
   font-weight: bold;
 }
-/* line 662, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 678, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .article-main .citation-reviewer a:link {
   color: #787d80;
 }
 
-/* line 670, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 686, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 address.contact-block {
   display: block;
   -webkit-border-radius: 4px;
@@ -10341,27 +10354,27 @@ address.contact-block {
   border: 1px solid #c7c8ca;
 }
 
-/* line 685, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 701, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard h1 {
   color: #787d80;
 }
-/* line 689, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 705, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard .panel {
   background: none;
 }
-/* line 692, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 708, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard .panel .panel-heading {
   background: none;
 }
-/* line 698, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 714, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard .panel .lead .rubric {
   color: #28b99a;
 }
-/* line 709, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 725, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard .panel .panel-footer {
   position: relative;
 }
-/* line 712, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 728, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard .panel .panel-footer .panel-overlay {
   position: absolute;
   top: 0;
@@ -10371,7 +10384,7 @@ address.contact-block {
   min-height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 721, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 737, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard .panel .panel-footer h2 {
   position: absolute;
   top: 16px;
@@ -10379,70 +10392,70 @@ address.contact-block {
   z-index: 2;
   color: white;
 }
-/* line 730, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 746, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard .panel .asset-box {
   border-left: 1px solid #acacac;
 }
-/* line 734, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 750, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard .panel .coming-soon {
   padding-top: 48px;
 }
-/* line 736, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 752, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard .panel .coming-soon .panel {
   background: none;
 }
-/* line 740, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 756, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard .panel .coming-soon .panel .panel-body.panel-1 {
   background-color: #f00;
 }
-/* line 743, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 759, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard .panel .coming-soon .panel .panel-body.panel-2 {
   background-color: #0f0;
 }
-/* line 747, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 763, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard .panel .coming-soon .panel .panel-body.panel-3 {
   background-color: #00f;
 }
-/* line 751, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 767, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 #dashboard .panel .coming-soon .panel .panel-body.panel-4 {
   background-color: #f0f;
 }
 
-/* line 763, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 779, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .socal-media-bar {
   background: #cccccc;
   font-size: 1.5em;
   margin: 12px -20px 12px -30px;
   padding-left: 0px;
 }
-/* line 769, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 785, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .socal-media-bar ul {
   list-style: none;
   display: block;
 }
-/* line 773, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 789, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .socal-media-bar ul li {
   display: inline-block;
   padding-right: 16px;
 }
 
-/* line 782, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 798, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .form-group {
   font-size: .75em;
 }
 
-/* line 786, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 802, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .form-field-inline {
   display: inline;
   max-width: 65%;
 }
 
-/* line 791, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 807, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .submit-inline {
   max-width: 15%;
 }
 
-/* line 798, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 814, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group input[type="password"],
@@ -10453,14 +10466,14 @@ address.contact-block {
   padding: 5px 6px;
 }
 
-/* line 807, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 823, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .btn-default {
   background-color: white;
   color: rgba(0, 0, 0, 0.9);
   box-shadow: 2px 2px 2px #acacac;
 }
 
-/* line 813, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 829, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .btn-basic {
   background-color: white;
   color: rgba(0, 0, 0, 0.9);
@@ -10468,28 +10481,28 @@ address.contact-block {
   box-shadow: 2px 2px 2px #acacac;
 }
 
-/* line 819, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 835, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .request-registration-code {
   font-size: .8125em;
 }
 
-/* line 825, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 841, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .downloads-list {
   list-style: none;
   border-bottom: 1px solid #c7c8ca;
 }
-/* line 829, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 845, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .downloads-list li {
   display: inline-block;
   margin: 0 4px;
   padding: 0;
 }
-/* line 834, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 850, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .downloads-list li:after {
   content: " |";
 }
 
-/* line 843, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 859, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .div-border-thick-full {
   border-top: 3px solid #c7c8ca;
   min-width: 100%;
@@ -10497,7 +10510,7 @@ address.contact-block {
   margin: 1em auto;
 }
 
-/* line 850, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 866, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .div-border-thick-ratio {
   border-top: 3px solid #c7c8ca;
   max-width: 62.8%;
@@ -10505,7 +10518,7 @@ address.contact-block {
   margin: 1em auto;
 }
 
-/* line 857, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 873, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .div-border-thin-full {
   border-top: 1px solid #c7c8ca;
   min-width: 100%;
@@ -10513,7 +10526,7 @@ address.contact-block {
   margin: 1em auto;
 }
 
-/* line 864, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 880, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .div-border-thin-ratio {
   border-top: 1px solid #c7c8ca;
   max-width: 62.8%;
@@ -10521,13 +10534,13 @@ address.contact-block {
   margin: 1em auto;
 }
 
-/* line 870, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 886, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .border-bottom-thin-full {
   border-bottom: 1px solid #c7c8ca;
   max-width: 100%;
 }
 
-/* line 876, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 892, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .navbar {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -10536,12 +10549,12 @@ address.contact-block {
   border-radius: 0px;
 }
 
-/* line 880, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 896, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .navbar-brand {
   font-weight: bolder;
 }
 
-/* line 885, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 901, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .section-box {
   margin: 2em 0 0 0;
   padding: 2em;
@@ -10554,12 +10567,12 @@ address.contact-block {
   border: #333 1px solid;
 }
 
-/* line 893, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 909, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .panel-narrow {
   width: 62.8%;
 }
 
-/* line 897, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
+/* line 913, c:/Sites/entreuse/app/assets/stylesheets/entreuse-bs.css.scss */
 .panel-center {
   margin: 0 auto;
 }
