@@ -8,7 +8,7 @@ class LobbyController < ApplicationController
   end
 
   def demos
-    render( :template => 'kit/deanorion' )
+    render( :template => 'demos/deanorion' )
   end
 
   def faq
