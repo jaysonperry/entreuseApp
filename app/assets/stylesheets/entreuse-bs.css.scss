@@ -7,8 +7,7 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600&subset=latin,latin-ext); // 'Dosis'
 @import url(http://fonts.googleapis.com/css?family=Federo); // 'Federo'
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,400italic,700italic); // font-family: 'Josefin Sans', sans-serif;
-@import "entreuse_simple_form";
-@import "bootstrap_dropdowns";
+
 // Custom SASS CSS
 // Custom Site SASS Variables
 
@@ -271,7 +270,7 @@ body {
     font-family: $font-family-entreuse-brand;
     font-weight: 200;
     letter-spacing: .0625em;
-    font-size: 34px;
+    font-size: 28px;
     line-height: 1;
   }
   
