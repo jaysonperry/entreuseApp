@@ -84,4 +84,6 @@ Entreuse::Application.configure do
   
   # set for the actual url
   config.action_mailer.default_url_options = { :host => 'http://www.entreuse.com' }
+  
+  
 end

@@ -1,34 +1,40 @@
 source 'https://rubygems.org'
 
+  ruby '2.0.0'
 
   # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
   gem 'rails', '4.0.0'
 
-# Use SCSS for stylesheets
+  # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 gem "haml", "~> 4.0.5"
-# Use Uglifier as compressor for JavaScript assets
+
+  # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
-# Use CoffeeScript for .js.coffee assets and views
+  # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
 gem "bootstrap-sass", "~> 3.1.1.0"
 
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+  # gem 'therubyracer', platforms: :ruby
+  
+ 
 
-# Use jquery as the JavaScript library
+  # Use jquery as the JavaScript library
 gem 'jquery-rails'
-
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
-
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
 
 # TO use the Font Awesome Icon Set as A Font 
 gem 'font-awesome-sass', '~> 4.0.3.1'
+  # primary scalable icon source
+  #gem 'font-awesome-sass-rails', '~> 3.0.2.2'
+
+  # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+gem 'turbolinks'
+
+  # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder', '~> 1.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -41,7 +47,9 @@ group :development, :test do
 end
 
 group :production do
-  gem 'mysql'
+  #Hack for Heroku db
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
 
