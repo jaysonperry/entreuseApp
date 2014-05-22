@@ -1,0 +1,73 @@
+<div id="demos">
+  <div class="epk">
+    <div class="panel">
+      <div class="epk-content">
+        <div id="shout" class="panel shout-panel">
+          <h1>DEMO - Default Media Kit</h1>
+        </div>
+        <!-- begin main epk content -->
+        <div class="row">
+          <div class="col-xsm-12 col-sm-12 col-md-9 col-lg-9 col-xlg-9">
+            <div>  
+              <div class="tab-pane active" id="kitJacket">
+                <%= render ('demos/demo_parts/deanorion/ltwad_kit_jacket_default') %>
+              </div>
+              <div class="tab-pane active" id="coverSheet">
+                <%= render ('demos/demo_parts/deanorion/ltwad_coverSheet') %>
+              </div>
+              
+              <div class="tab-pane" id="bookSummary">
+                <%= render ('demos/demo_parts/deanorion/ltwad_book_sum') %>
+              </div>
+              <div class="tab-pane" id="bookOneSheet">
+                
+              </div>
+              <div class="tab-pane" id="bookInterviewQAs">
+                
+              </div>
+              <div class="tab-pane" id="bioDeanOrion">
+                
+              </div>
+              <div class="tab-pane" id="bookBlogReviews">
+                
+              </div>
+              <div class="tab-pane" id="bookAmazonReviews">
+                
+              </div>
+              <div class="tab-pane" id="bookAwards">
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="col-xsm-12 col-sm-12 col-md-3 col-lg-3 col-xlg-3">
+            <section class="rackmount">
+                <%= render ('demos/demo_parts/deanorion/orion_social_media') %>
+              <div class="row-epk-display border-bottom-thin-full">
+                <h4>In This Kit</h4>
+                <ul class="nav nav-pills nav-stacked">
+                  <li class="active"><a href="#kitJacket" data-toggle="tab">The Book</a></li>
+                  <li><a href="#bookSummary" data-toggle="tab">Book Summary</a></li>
+                  <li><a href="#bookOneSheet" data-toggle="tab">Book One-Sheet</a></li>
+                  <li><a href="#bookInterviewQAs" data-toggle="tab">Interview Q & As</a></li>
+                  <li><a href="#bioDeanOrion" data-toggle="tab">The Author Dean Orion</a></li>
+                  <li><a href="#bookBlogReviews" data-toggle="tab">Blog Reviews</a></li>
+                  <li><a href="#bookAmazonReviews" data-toggle="tab">Amazon Reviews</a></li>
+                  <li><a href="#bookAwards" data-toggle="tab">Book Awards</a></li>
+                </ul>
+              </div>
+              
+              <div class="row-epk-display border-bottom-thin-full">
+                <%= render ('demos/demo_parts/deanorion/orion_bio') %>
+              </div>
+              <div class="row-epk-display border-bottom-thin-full">
+                <%= render ('demos/demo_parts/deanorion/orion_awards') %>
+              </div>
+            </section><!-- end .rackmount -->
+          </div>
+        </div>
+        </div><!-- end .epk-content -->
+    </div><!-- end .epk-wrapper -->
+  </div><!-- end .epk -->
+</div><!-- end #demos -->

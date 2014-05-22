@@ -1,0 +1,65 @@
+<article class="awards">
+
+                  <h3 class="rubric"><a data-toggle="modal" data-target="#orionAwardsList">Personal Awards</a></h3>
+                  <div>
+                    <div>
+                      <h3>Dean Orion</h3>
+                      <p class="blurb">Recipient of:</p>
+                  <ul>
+                    <li>Writers Award One</li>
+                    <li>Writers Award Two</li>
+                  </ul>
+                    <!-- Button trigger modal -->
+                      <p class="text-right"><a data-toggle="modal" data-target="#orionAwardsList">
+                        more&hellip;
+                      </a></p>
+                      
+                    </div>  
+                  </div>
+                </div>
+
+
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="orionAwardsList" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                          <h4 class="modal-title" id="myModalLabel">Biography</h4>
+                        </div>
+                        <div class="modal-body">
+                          <div>
+                            <h4>Download</h4>
+                            <ul class="downloads-list">
+                              <li>
+                                <%= link_to 'PDF', '#'%>
+                              </li>
+                              <li>
+                                <%= link_to 'Word', '#'%>
+                              </li>
+                              <li>
+                                <%= link_to 'TXT', '#'%>
+                              </li>
+                              <li>
+                                <%= link_to 'RTF', '#'%>
+                              </li>
+                              <li>
+                                Image: <%= link_to 'JPG', '#'%>
+                              </li>
+                            </ul>
+                          </div>
+                                    <h1>Dean Orion <small>Achievements &amp; Awards</small></h1>
+                                      <h5>Recipient of:</h5>
+                                      <ul>
+                                        <li>Writers Award One</li>
+                                        <li>Writers Award Two</li>
+                                      </ul>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+</article>

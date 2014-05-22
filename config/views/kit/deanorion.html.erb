@@ -1,0 +1,109 @@
+<div id="demos">
+  <div class="epk">
+    <div class="panel">
+      <div class="epk-content">
+        <div id="shout" class="panel shout-panel">
+          <h1>Press Release with Media Kit</h1>
+        </div>
+        <!-- begin main epk content -->
+        <div class="row">
+          <div class="col-xsm-12 col-sm-12 col-md-9 col-lg-9 col-xlg-9">
+            <article class="epk-locker-display">
+              <div class="tab-content">
+                <div class="tab-pane fade in active" id="jacket">
+                  <%= render ('kit/parts/deanorion/ltwad_jacket') %>
+                </div>
+                <div class="tab-pane fade" id="pressRelease01">
+                  <%= render ('kit/parts/deanorion/ltwad_press_release_01') %>
+                </div>
+                <div class="tab-pane fade" id="bookSummary">
+                  <%= render ('kit/parts/deanorion/ltwad_book_sum') %>
+                </div>
+                <div class="tab-pane fade" id="blogReviews">
+                  <%= render ('kit/parts/deanorion/ltwad_blog_reviews') %>
+                </div>
+                <div class="tab-pane fade" id="bookOneSheet">
+                  <%= render ('kit/parts/deanorion/ltwad_book_onesheet') %>
+                </div>
+                <div class="tab-pane fade" id="amazonReviews">
+                  <%= render ('kit/parts/deanorion/ltwad_amazon_reviews') %>
+                </div>
+                <div class="tab-pane fade" id="interviewQAs">
+                  <%= render ('kit/parts/deanorion/orion_interview_q_a') %>
+                </div>
+                <div class="tab-pane fade" id="bioAuthor">
+                  <%= render ('kit/parts/deanorion/orion_bio') %>
+                </div>
+              </div><!-- end .tab-content -->
+            </article><!-- end .epk-wrapper -->
+          </div>
+          
+          <div class="col-xsm-12 col-sm-12 col-md-3 col-lg-3 col-xlg-3">
+            <section class="rackmount">
+              <!-- Nav tabs -->
+              <div class="kit-content-list">
+                <h4>In this Kit</h4>
+                <ul class="nav nav-stacked" id="kitContentList">
+                  <li class="active">
+                    <a href="#jacket" data-toggle="tab">Kit Jacket</a>
+                    <!-- <%= link_to "Kit Jacket", '#jacket', :data => {:toggle=>"tab"} %> -->
+                  </li>
+                  <li>
+                    <a href="#pressRelease01" data-toggle="tab">Press Release</a>
+                    <!-- <%= link_to "Press Release", '#pressRelease01', :data => {:toggle=>"tab"} %> -->
+                  </li>
+                  <li>
+                    <a href="#bookSummary" data-toggle="tab">Book Summary</a>
+                    <!-- <%= link_to 'Book Summary', '#bookSummary', :data => {:toggle=>"tab"} %> -->
+                  </li>
+                  <li>
+                    <a href="#bookOneSheet" data-toggle="tab">Book One-Sheet</a>
+                    <!-- <%= link_to 'Book One-Sheet', '#bookOneSheet', :data => {:toggle=>"tab"} %> -->
+                  </li>
+                  <li>
+                    <a href="#blogReviews" data-toggle="tab">Bloggers Reviews</a>
+                    <!-- <%= link_to 'Bloggers Reviews', '#blogReviews', :data => {:toggle=>"tab"} %> -->
+                  </li>
+                  <li>
+                    <a href="#amazonReviews" data-toggle="tab">Amazon Reviews</a>
+                    <!-- <%= link_to 'Amazon Reviews', '#amazonReviews', :data => {:toggle=>"tab"} %> -->
+                  </li>
+                  <li>
+                    <a href="#interviewQAs" data-toggle="tab">Interview Q & A's</a>
+                    <!-- <%= link_to 'Interview Q & A\'s', '#interviewQAs', :data => {:toggle=>"tab"} %> -->
+                  </li>
+                  <li>
+                    <a href="#bioAuthor" data-toggle="tab">Dean Orion Biography</a>
+                    <!-- <%= link_to 'Dean Orion Biography', '#bioAuthor', :data => {:toggle=>"tab"} %> -->
+                  </li>
+                </ul>
+              </div>
+              
+              <%= render ('kit/parts/deanorion/orion_social_media') %>
+              
+              <div class="row-epk-display border-bottom-thin-full">
+                <div>
+                  <h3 class="rubric"><a data-toggle="tab" data-target="#bioAuthor">The Author</a></h3>
+
+                    <div>
+                      <a data-toggle="tab" href="#bioAuthor"><%= image_tag "deanorion/Dean Orion8x10.png", :class => "img-center img-responsive", :title => "Dean Orion Headshot" %></a>
+                    </div>
+                    <div>
+                      <h3>Dean Orion</h3>
+                      <p class="blurb">Fresh out of the wonderful academic cocoon of Bates College in 1986, Dean Orion began his career as a professional writer by crafting copy for a local ad agency in his native Long Island by day and hopping trains to The Lee Strasberg Creative Center in New York City, where his first play was produced by night.</p>
+                    <!-- Button trigger modal -->
+                      <p class="text-right"><a data-toggle="tab" data-target="#bioAuthor">
+                        more&hellip;
+                      </a></p>
+                      
+                    </div>  
+                  </div>
+              </div>
+              
+            </section><!-- end .rackmount -->
+          </div>
+        </div>
+      </div><!-- end .epk-content -->
+    </div><!-- end .epk-wrapper -->
+  </div><!-- end .epk -->
+</div><!-- end #demos -->
